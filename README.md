@@ -9,4 +9,6 @@
     rem - respect to root element ( in most element default is 16px size)
     em - respect to parent element
     vw - view port width better to use 100% for 100 vw since doesnt show horizontal scrollbar
-    
+05. Box model
+
+06. Typhography

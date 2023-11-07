@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    /* color: purple; */
+}
+
+/* input, button {
+    font: inherit;
+    color: inherit;
+} */
+
+a {
+    text-decoration: none;
+}
+p {
+    text-transform: uppercase;
+    text-align: justify;
+    text-indent: 5em;
+    line-height: 1.5;
+    letter-spacing: 0.15em;
+    word-spacing: 0.5em;
+    font-weight: 300;
+    font-style: normal;
+}
