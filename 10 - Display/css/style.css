@@ -7,19 +7,49 @@
 }
 
 body {
-  margin: 0.5rem;
   font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
-  text-align: center;
 }
 
-main {
+/* main {
   background-color: aqua;
   width: 50%;
-}
+} */
 
 p {
   background-color: lightgray;
+  margin: 100px 50px
 }
 
+.opposite {
+  display: inline-block; /*if display is inline-block then we can use margin and height*/
+  background-color: #333;
+  color: whitesmoke;
+  margin-top: 100px; /* margin top and bottom cannot be applied in inline*/
+  height: 200px; /* height cannot be applied in inline*/
+  padding: 4rem; /* height can be applied in inline*/
+}
+
+ul {
+  list-style-type: none;
+  padding: 0.5rem;
+  text-align: right;
+  background-color: black;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin-inline: 0.5rem;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+  text-decoration: underline;
+}
 
